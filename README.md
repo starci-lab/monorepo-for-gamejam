@@ -42,4 +42,4 @@ Details README in each project folder.
 - **Description:** The CiWallet Bot is a Telegram bot that allows users to create and manage their wallets directly within Telegram.
 
 Overview Diagram:
-![CiWallet Overview](https://violet-lazy-yak-333.mypinata.cloud/ipfs/QmdjEH3RyujkZgZYBFc8haq3Z1ZxruzVjYH9LfuQbGZY4X)
+![CiWallet Overview](https://violet-lazy-yak-333.mypinata.cloud/ipfs/QmTBYxH6Q4KPHFX97N5Jya54tk93x3onRSL8spBTtWVQS2)
