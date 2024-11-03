@@ -1,0 +1,76 @@
+type NftMetadataResponse {
+  image: String!
+  properties: String!
+}
+
+type NftDataResponse {
+  tokenId: String!
+  metadata: NftMetadataResponse
+  ownerAddress: String
+}
+
+type GetNftsByOwnerAddressResponse {
+  records: [NftDataResponse!]!
+  count: Int!
+}
+
+type GetNftsByTokenIdsResponse {
+  records: [NftDataResponse!]!
+}
+
+type RoleEntity {
+  role: String!
+  accountId: ID!
+  account: AccountEntity!
+}
+
+type AccountEntity {
+  username: String!
+  hashedPassword: String!
+  roles: [RoleEntity!]
+}
+
+type Query {
+  nftsByOwnerAddress(args: GetNftsByOwnerAddressArgs!): GetNftsByOwnerAddressResponse!
+  nftsByTokenIds(args: GetNftsByTokenIdsArgs!): GetNftsByTokenIdsResponse!
+  nftByTokenId(args: GetNftByTokenIdArgs!): NftDataResponse
+}
+
+input GetNftsByOwnerAddressArgs {
+  input: GetNftsByOwnerAddressInput
+  filter: GetNftsByOwnerAddressFilter
+}
+
+input GetNftsByOwnerAddressInput {
+  accountAddress: ID!
+  network: String
+  nftCollectionKey: String
+  chainKey: String
+}
+
+input GetNftsByOwnerAddressFilter {
+  skip: Int
+  take: Int
+}
+
+input GetNftsByTokenIdsArgs {
+  input: GetNftsByTokenIdsInput
+}
+
+input GetNftsByTokenIdsInput {
+  tokenIds: [String!]!
+  network: String
+  nftCollectionKey: String
+  chainKey: String
+}
+
+input GetNftByTokenIdArgs {
+  input: GetNftByTokenIdInput
+}
+
+input GetNftByTokenIdInput {
+  tokenId: String!
+  network: String
+  nftCollectionKey: String
+  chainKey: String
+}
