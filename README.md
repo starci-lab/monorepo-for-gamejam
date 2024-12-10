@@ -1,4 +1,4 @@
-# CiWallet Mono Repo
+# CiFarm Mono Repo
 
 This is a Mono Repo for the CiFarm project.
 
