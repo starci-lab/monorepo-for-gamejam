@@ -3,7 +3,7 @@
 This is a Mono Repo for the CiWallet project, which consists of multiple modules designed to provide a comprehensive multi-chain wallet experience along with related gaming and server functionalities.
 
 ### Important Note
-We still update code in other repositories; however, for the Sigma Hackathon, we will not create new commits in this repository. Feel free to check and judge the existing code.
+We still update code in other repositories; however, for the Solana Gamejam, we will not create new commits in this repository. Feel free to check and judge the existing code.
 Details README in each project folder.
 
 ## Modules
