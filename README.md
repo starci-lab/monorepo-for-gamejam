@@ -11,7 +11,7 @@ Details README in each project folder.
 ### CiWallet
 - **Folder Name:** ciwallet
 - **Technologies:** TypeScript, Next.js
-- **Description:** The first multi-chain wallet launched on Telegram. With the Wormhole TS SDK, CiWallet fully supports Wormhole features such as transfer, redeem, and more.
+- **Description:** The first Solana & multi-chain wallet launched on Telegram. With the Wormhole TS SDK, CiWallet fully supports Wormhole features such as transfer, redeem, and more. 
 
 ---
 
