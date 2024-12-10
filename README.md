@@ -1,6 +1,6 @@
 # CiWallet Mono Repo
 
-This is a Mono Repo for the CiWallet project, which consists of multiple modules designed to provide a comprehensive multi-chain wallet experience along with related gaming and server functionalities.
+This is a Mono Repo for the CiFarm project.
 
 ### Important Note
 We still update code in other repositories; however, for the Solana Gamejam, we will not create new commits in this repository. Feel free to check and judge the existing code.
@@ -40,6 +40,3 @@ Details README in each project folder.
 - **Folder Name:** ciwallet-bots
 - **Technologies:** Python
 - **Description:** The CiWallet Bot is a Telegram bot that allows users to create and manage their wallets directly within Telegram.
-
-Overview Diagram:
-![CiWallet Overview](https://violet-lazy-yak-333.mypinata.cloud/ipfs/QmTBYxH6Q4KPHFX97N5Jya54tk93x3onRSL8spBTtWVQS2)
